@@ -1,0 +1,147 @@
+.container4{
+    display:grid;
+    grid-template-columns:auto auto auto ;
+    gap: 10px;
+    padding-inline: 50px;
+    // width: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+.flex-item {
+    flex: 1;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.073);
+}
+.deals1{
+    // position: relative;
+    height: 950px;
+    width: 350px;
+}
+.deals1 img{
+    width: 184px;
+    height: 184px;
+    margin-inline: 65px;
+    
+    // align-items: center;
+    
+}
+.deals2{
+    // position: relative;
+    height: 950px;
+    width: 350px;
+}
+.deals2 img{
+    width: 184px;
+    height: 184px;
+    margin-inline: 65px;
+}
+.deals3{
+    // position: relative;
+    height: 950px;
+    width: 350px;
+    // background-color: brown;
+}
+.deals3 img{
+    width: 184px;
+    height: 184px;
+    margin-inline: 65px;
+}
+.deals4{
+    // position: relative;
+    height: 950px;
+    width: 350px;
+}
+.deals4 img{
+    width:184px;
+    height:184px;
+    margin-inline: 65px;
+}
+.deals5{
+    // position: relative;
+    height: 950px;
+    width: 350px;
+}
+.deals5 img{
+    width:184px;
+    height:184px;
+    margin-inline: 65px;
+}
+.deals6{
+    // position: relative;
+    height: 950px;
+    width: 350px;
+}
+.deals6 img{
+    width:184px;
+    height:184px;
+    margin-inline: 65px;
+}
+.line4{
+    text-align: center;
+    padding: 10px;
+}
+.container4 h3{
+    text-align: center;
+    padding: 10px;
+}
+.container4 .description1 li{
+    font-size:medium;
+    // text-align:center;
+    text-decoration: none;
+    margin-inline: 20px;
+}
+.container4 .price{
+    text-align: center;
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(218,72,0);
+    
+}
+.container4 .description1 .buy{
+  background-color: #1d11cc;
+//   border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 30px;
+  
+}
+.container4 .description1 .button{
+    border-radius: 12px;
+    color: blue;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #1613ca;
+    margin: 20px; 
+}
+.container4 .description1 .button:hover{
+    color: white;
+    background-color: blue;
+}
+@media screen and (max-width:1098px){
+    .container4{
+      grid-template-columns: auto auto;
+    }
+    
+  }
+  @media screen and (max-width:750px){
+    .container4{
+      grid-template-columns: auto;
+    }
+    
+  }
+

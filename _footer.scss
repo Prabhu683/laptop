@@ -1,0 +1,127 @@
+.footer-image{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-image .image1{
+  width: 16.6%;
+  position: relative;
+}
+.footer-image .image1 img{
+  width: 100%;
+}
+.footer-image .insta{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .4s ease-in-out;
+  opacity: 0;
+}
+.footer-image .insta img{
+  width: 30px;
+  cursor: pointer;
+}
+.footer-image .image1:hover .insta{
+  opacity: 1;
+}
+.footer-image .image1:hover .insta img{
+  animation: instagram .5s ease-in-out forwards;
+}
+
+
+
+@media(max-width: 768px){
+  .footer-image .image1{
+      width: calc(100% / 3);
+  }
+}
+
+
+@media(max-width: 576px){
+  .footer-image .image1{
+      width: calc(100% / 2);
+  }
+}
+
+@media(max-width: 300px){
+  .footer-image .image1{
+      width: 100%;
+  }
+}
+
+.bg-footer{
+  width: 90%;
+  margin: 0px auto;
+}
+.bg-footer .footer-flex{
+  display: flex;
+  justify-content: space-between;
+  grid-row-gap: 20px;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+}
+.bg-footer .footer-flex .footer1{
+  width: 24%;
+}
+.footer-flex .footer1 h2{
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.footer-flex .footer1 section{
+  font-size: 14px;
+}
+.footer-flex .footer1 li{
+  font-size: 14px;
+  list-style: none;
+}
+.footer-flex .footer1 li a{
+  text-decoration: none !important;
+  text-transform: capitalize;
+  color: #000;
+}
+.footer-flex .footer1 .footer-logo{
+  margin-top: 30px;
+}
+.footer1 .footer-logo img{
+  width: 100%;
+}
+.bg-footer hr{
+  background: #f9f9f9;
+  margin: 15px 0px;
+  height: 1px;
+  width: 100%;
+}
+.bg-footer .copy{
+  margin: 15px 0px;
+  text-align: center;
+}
+.bg-footer .copy section{
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.bg-footer .copy span{
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+
+
+@media(max-width: 768px){
+  .bg-footer .footer-flex .footer1{
+      width: 49%;
+  }
+}
+
+@media(max-width: 576px){
+  .bg-footer .footer-flex .footer1{
+      width: 100%;
+  }
+}

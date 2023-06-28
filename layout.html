@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝖙𝖊𝖈𝖍𝕸𝖔𝖋</title>
+    <link rel="stylesheet" href="layoutstyle.css">
+    <link rel="icon" href="eye.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfulWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar" id="home">
+        <a href="#" class="navbar-logo">𝖙𝖊𝖈𝖍<span style="color: red;">𝕸𝖔𝖋</span></a>
+        <img src="images/Clipart.png" alt="" srcset="">
+        <div class="navbar-menu" id="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#laptop">Laptop</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact us</a></li>
+          <li><a href="register.html">Log in</a></li>   
+          </ul>
+        </div>
+        <div class="menu"><li><a href="#">Menu</a></li></div> 
+    </nav>
+        <div class="banner" id="laptop ">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/banner-01.jpg" alt="blank" srcset=""></div>
+                <div class="swiper-slide"><img src="images/banner-2a.jpg" alt="blank" srcset=""></div>
+                <div class="swiper-slide"><img src="images/banner-3.jpg" alt="blank" srcset=""></div>
+                <div class="swiper-slide"><img src="images/banner-1.jpg" alt="blank" srcset=""></div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+           const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay:3000,
+                disableoninteraction: false,
+            },
+           loop: true,
+
+           pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+           },
+
+           navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+           },
+           });
+        </script>
+        <div class="grid-container " id="laptop">
+             <div class="content1 flex-item"data-aos="fade-up" 3000 data-aos-easing="ease-in-back" data-aos-offset="0">
+                 <div class="para">
+                    <h1>ASUS ZENBOOK</h1>
+                    <a href="#zen">Explore more ></a>
+                 </div> 
+                 <img src="images/cont1.jpg" alt=""> 
+             </div>
+             <div class="content2 flex-item " data-aos="fade-up" 3000 data-aos-easing="ease-in-back" data-aos-offset="0">
+                 <div class="para">
+                     <h1>ASUS VIVOBOOK</h1>
+                     <a href="#vivo">Explore more ></a>
+                 </div>
+                 <img src="images/cont2.jpg" alt="">
+             </div>
+             <div class="content3 flex-item" data-aos="fade-up" 3000 data-aos-easing="ease-in-back" data-aos-offset="0">
+                 <div class="para">
+                     <h1>ROG STRIX SERIES</h1>
+                     <a href="#rog">Explore more ></a>
+                 </div>
+                 <img src="images/cont3.jpg" alt="">
+             </div>
+             <div class="content4 flex-item" data-aos="fade-up" 3000 data-aos-easing="ease-in-back" data-aos-offset="0">
+                 <div class="para">
+                     <h1>ASUS TUF GAMING</h1>
+                     <a href="#asus">Explore more ></a>
+                 </div>
+                 <img src="images/cont4.jpg" alt="">
+             </div>
+        </div>
+        <br><br><br>
+        <div class="container3">
+            <h1 class="heading">Campaigns and Events</h1><br><br>
+            <div class="event1 flex-item"data-aos="flip-left">
+                <img src="images/event1.jpg" alt="">
+                <div class="heading">
+                    <h3>ROG ACADEMY</h3>
+                </div>
+
+            </div>
+            <div class="event2 flex-item"data-aos="flip-right">
+                <img src="images/event2.jpg" alt="">
+                <div class="heading">
+                    <h3>ROG SHUTDOWN SERIES</h3>
+                </div>
+
+            </div>
+
+        </div>
+        <br><br>
+        <h3 class="line4">HOT DEALS</h3><br>
+        <div class="container4"data-aos="fade-up" 3000 data-aos-easing="ease-in-back" data-aos-offset="0">
+            <div class="deals1 flex-item" id="zen">
+               <a href="https://www.asus.com/in/laptops/for-work/zenbook/"><img src="images/deal1.jpg" alt=""></a> 
+                <div class="spec">
+                 <a href="#" style="text-decoration: none; color: black;"><h3>ASUS ZENBOOK 14 OLED (UM3402)</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                 <div class="description1">
+                    <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                    <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                    <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                    <li>up to AMD Radeon graphics</li><br>
+                    <li>up to 16GB memory</li><br>
+                    <li>up to 1 TB SSD storage</li><br>
+                    <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                    <li>Long-lasting 75 Wh battery</li><br>
+                    <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                    <a href="#" class="buy">Buy now</a>
+                    <a href="#" class="button">Learn more</a>
+                 </div>
+                </div>
+
+            </div>
+            <div class="deals2 flex-item">
+                <img src="images/zenbook2.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-work/zenbook/" style="text-decoration: none; color: black;"><h3>ASUS ZENBOOK pro 15 OLED</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+
+                </div>
+
+            </div>
+            <div class="deals3 flex-item">
+                <img src="images/zenbook3.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-work/zenbook/" style="text-decoration: none; color: black;"><h3>ZENBOOK FLIP 14 OLED</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals4 flex-item" id="vivo">
+                <img src="images/vivobook1.jpg" alt="">
+               <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-students/vivobook/" style="text-decoration: none; color: black;"><h3>ASUS VIVOBOOK S 15 OLED</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals5 flex-item">
+                <img src="images/vivobook2.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-students/vivobook/" style="text-decoration: none; color: black;"><h3>VIVIBOOK S 14 OLED (S3402)</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals6 flex-item">
+                <img src="images/vivobook3.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-students/vivobook/" style="text-decoration: none; color: black;"><h3>VIVIBOOK S 14 FLIP (TP3402)</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals6 flex-item" id="rog">
+                <img src="images/rog strix1.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-gaming/rog-republic-of-gamers/" style="text-decoration: none; color: black;"><h3>ROG strix scar 17(2023)</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals6 flex-item">
+                <img src="images/rog strix2.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-gaming/rog-republic-of-gamers/" style="text-decoration: none; color: black;"><h3>ROG strix scar 17 SE(2022)</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals6 flex-item">
+                <img src="images/deal6.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-gaming/rog-republic-of-gamers/" style="text-decoration: none; color: black;"><h3>ROG strix G17(2022)</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals6 flex-item" id="asus">
+                <img src="images/tuf1.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-gaming/tuf-gaming/" style="text-decoration: none; color: black;"><h3>ASUS TUF GAMING F17</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals6 flex-item">
+                <img src="images/tuf2.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-gaming/tuf-gaming/" style="text-decoration: none; color: black;"><h3>ASUS TUF DASH F15</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+            <div class="deals6 flex-item">
+                <img src="images/tuf3.jpg" alt="">
+                <div class="spec">
+                 <a href="https://www.asus.com/in/laptops/for-gaming/tuf-gaming/" style="text-decoration: none; color: black;"><h3>ASUS TUF GAMING F17(2022)</h3></a>
+                 <div class="price">
+                    <p>ASUS estore price starting at</p>
+                    <p style="font-weight: bolder; font-size: larger; color:rgb(218,72,0);">₹ 89,999.00</p>
+                    <span style="text-decoration: line-through; font-size: small;">1,10,990.00</span>
+                    <p style="color: red;">save 21,000.00</p>
+                 </div>
+                     <div class="description1">
+                        <li>Processor: 7th Gen, AMD Ryzen 7 7730U <br> Mobile Processor (8-core/16-thread, 16MB cache, up to 4.5 GHz Max Boost)</li><br>
+                        <li>windows 11 home-ASUS <br> recommends windows 11 pro for business</li><br>
+                        <li>up to AMD Ryzen 7 7730u <br> processor</li><br>
+                        <li>up to AMD Radeon graphics</li><br>
+                        <li>up to 16GB memory</li><br>
+                        <li>up to 1 TB SSD storage</li><br>
+                        <li>up to 14" 2.8K OLED NanoEdge <br>touchscreen</li><br>
+                        <li>Long-lasting 75 Wh battery</li><br>
+                        <li>up to tri-band WiFi 6E(802.11ax)</li><br>
+                        <a href="#" class="buy">Buy now</a>
+                        <a href="#" class="button">Learn more</a>
+                     </div>
+                </div>
+
+            </div>
+        </div><br><br>
+        <div class="service" id="services"data-aos="fade-up" 3000 data-aos-easing="ease-in-back" data-aos-offset="0">
+            <h1 style="color: brown;">Our Services</h1><br>
+            <img src="images/service.png" alt="" srcset="">
+        </div>
+       
+    <!--  footer  -->
+
+    <div class="bg-footer" id="contact"data-aos="fade-up" 3000 data-aos-easing="ease-in-back" data-aos-offset="0">
+        <div class="footer-flex">
+            <div class="footer1">
+                <h2>techmof</h2>
+                <section>
+                    For several businesses and organizations in the sector,<br> we are the trusted time resource! <br> To equate their time directly with yours, <br> anyone who follows the relation gets to choose their home place.
+                </section>
+            </div>
+            <div class="footer1">
+                <h2>helpful links</h2>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our blog</a></li>
+                <li><a href="#">visit site</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#">apply a job</a></li>
+            </div>
+            <div class="footer1">
+                <h2>shopping</h2>
+                <li><a href="#">online cards</a></li>
+                <li><a href="#">return policy</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">inventory</a></li>
+            </div>
+            <div class="footer1">
+                <h2>payment method</h2>
+                <section>
+                    select one of the most common ways to pay a money for our products.
+                </section>
+                <div class="footer-logo">
+                    <img src="images/footer-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copy">
+            <section>
+                copyright &copy; at 2023 by <span>ALL RIGHTS RESERVED.</span>
+            </section>
+        </div>
+    </div>
+
+        
+        <!--  scroll  -->
+    
+
+    <div class="top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swipe = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        autoplay: true,
+        speed: 600,
+        breakpoints: {
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          991: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+  
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+        <script>
+            AOS.init();
+         </script>
+          <script src="main.js"></script>
+</body>
+</html>
